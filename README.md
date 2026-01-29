@@ -244,6 +244,13 @@ ORS + MM + SEQ
 
 ---
 
+## Documentação
+
+- [README](README.md) - Visão geral e instalação
+- [Documentação Técnica](docs/TECHNICAL.md) - Arquitetura, APIs, código
+
+---
+
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
