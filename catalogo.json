@@ -1,0 +1,132 @@
+{
+  "empresa": {
+    "nome": "BRASIL UP UNIFORMES PROFISSIONAIS LTDA",
+    "endereco": "Av. DOIS 108 | BETIM MG",
+    "slogan": "UNIFORMES QUE MOVEM O BRASIL",
+    "site": "www.brasiluniformesprofissionais.com",
+    "logo_url": ""
+  },
+  "vendedores": [
+    "Elidy Izidio de Menezes",
+    "Outro Vendedor"
+  ],
+  "validade_dias": 30,
+  "tamanhos_padrao": {
+    "camisas": ["P/N° 2", "M/N° 3", "G/N° 4", "GG/N° 5", "EG/N° 6", "ESP/N° 9"],
+    "calcas": ["N° 36", "N° 38", "N° 40", "N° 42", "N° 44", "N° 46", "N° 48", "N° 50", "N° 52"],
+    "jalecos": ["P", "M", "G", "GG", "EG"],
+    "macacoes": ["P", "M", "G", "GG", "EG"]
+  },
+  "produtos": [
+    {
+      "categoria": "Camisas PV",
+      "nome": "CAMISA PV MANGA CURTA GOLA REDONDA",
+      "preco": 44.90
+    },
+    {
+      "categoria": "Camisas PV",
+      "nome": "CAMISA PV MANGA LONGA GOLA REDONDA",
+      "preco": 49.90
+    },
+    {
+      "categoria": "Jalecos",
+      "nome": "JALECO DE BRIM MANGA CURTA FECHADO GOLA REDONDA",
+      "preco": 54.90
+    },
+    {
+      "categoria": "Jalecos",
+      "nome": "JALECO DE BRIM MANGA CURTA ABERTO GOLA REDONDA",
+      "preco": 59.90
+    },
+    {
+      "categoria": "Jalecos",
+      "nome": "JALECO DE BRIM MANGA LONGA FECHADO GOLA REDONDA",
+      "preco": 57.90
+    },
+    {
+      "categoria": "Jalecos",
+      "nome": "JALECO DE BRIM MANGA LONGA ABERTO GOLA REDONDA",
+      "preco": 67.90
+    },
+    {
+      "categoria": "Calcas",
+      "nome": "CALCA DE BRIM ELASTICO E CORDAO",
+      "preco": 49.90
+    },
+    {
+      "categoria": "Calcas",
+      "nome": "CALCA DE BRIM MEIO COS CORDAO",
+      "preco": 54.90
+    },
+    {
+      "categoria": "Calcas",
+      "nome": "CALCA DE JEANS COS",
+      "preco": 49.90
+    },
+    {
+      "categoria": "Calcas",
+      "nome": "CALCA DE JEANS ELASTICO E CORDAO",
+      "preco": 44.90
+    },
+    {
+      "categoria": "Calcas",
+      "nome": "CALCA DE JEANS MEIO COS E CORDAO",
+      "preco": 54.90
+    },
+    {
+      "categoria": "Macacoes",
+      "nome": "MACACAO DE BRIM ELASTICO E CORDAO",
+      "preco": 144.90
+    },
+    {
+      "categoria": "Camisas Sociais",
+      "nome": "CAMISA SOCIAL MANGA LONGA TRICOLINE IBIZA",
+      "preco": 84.90
+    },
+    {
+      "categoria": "Camisas Sociais",
+      "nome": "CAMISA SOCIAL MANGA CURTA TRICOLINE IBIZA",
+      "preco": 74.90
+    },
+    {
+      "categoria": "Camisas Sociais",
+      "nome": "CAMISA SOCIAL MANGA LONGA TRICOLINE MIXTA",
+      "preco": 74.90
+    },
+    {
+      "categoria": "NR10 Antichamas",
+      "nome": "CONJUNTO DE BRIM NR10 ANTICHAMAS",
+      "preco": 444.90
+    },
+    {
+      "categoria": "NR10 Antichamas",
+      "nome": "JALECO DE BRIM MANGA NR10 ANTICHAMAS",
+      "preco": 244.90
+    },
+    {
+      "categoria": "NR10 Antichamas",
+      "nome": "CALCA DE BRIM MANGA NR10 ANTICHAMAS",
+      "preco": 224.90
+    },
+    {
+      "categoria": "Camisas Polo",
+      "nome": "CAMISA GOLA POLO MANGA CURTA",
+      "preco": 64.90
+    },
+    {
+      "categoria": "Camisas Polo",
+      "nome": "CAMISA GOLA POLO MANGA LONGA",
+      "preco": 74.90
+    },
+    {
+      "categoria": "Operacional",
+      "nome": "CAMISA OPERACIONAL",
+      "preco": 67.90
+    },
+    {
+      "categoria": "Operacional",
+      "nome": "CALCA OPERACIONAL",
+      "preco": 63.90
+    }
+  ]
+}

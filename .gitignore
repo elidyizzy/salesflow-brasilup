@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+orcamentos_gerados/
+.streamlit/secrets.toml
+
+# Dados locais
+orcamentos.json
+clientes.json
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+teste_orcamento.pdf

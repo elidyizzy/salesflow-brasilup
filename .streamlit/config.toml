@@ -1,0 +1,7 @@
+[theme]
+# Paleta Be Data - GEN.IA
+primaryColor = "#E87A2A"          # Laranja (botoes, links)
+backgroundColor = "#1C1C1C"       # Cinza chumbo escuro (fundo)
+secondaryBackgroundColor = "#2D2D2D"  # Cinza chumbo claro (sidebar, cards)
+textColor = "#FAFAFA"             # Texto claro
+font = "sans serif"
