@@ -207,8 +207,8 @@ col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
     st.image("logo_bedata.png", use_column_width=True)
 
-st.markdown("<h1 style='text-align: center;'>SalesFlow <span style='color: #E87A2A; font-size: 0.5em;'>by GEN.IA</span></h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #888; margin-bottom: 20px; font-size: 18px;'>Brasil UP Uniformes Profissionais</p>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>ORÇAMENTOS</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #E87A2A; margin-bottom: 20px; font-size: 20px;'>Brasil Uniformes Profissionais</p>", unsafe_allow_html=True)
 
 st.divider()
 
