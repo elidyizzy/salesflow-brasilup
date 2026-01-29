@@ -13,6 +13,14 @@ st.set_page_config(
     layout="wide"
 )
 
+# Meta tags Open Graph para previews
+st.markdown("""
+<meta property="og:site_name" content="Be Data">
+<meta property="og:title" content="SalesFlow - Orçamentos Brasil Uniformes">
+<meta property="og:description" content="Sistema de orçamentos desenvolvido por Be Data | GEN.IA">
+<meta property="og:type" content="website">
+""", unsafe_allow_html=True)
+
 # CSS customizado - Paleta Be Data
 st.markdown("""
 <style>
