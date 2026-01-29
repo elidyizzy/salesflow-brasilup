@@ -9,7 +9,7 @@ import requests
 # Configuracao da pagina
 st.set_page_config(
     page_title="SalesFlow by GEN.IA",
-    page_icon="⚡",
+    page_icon="🧠",
     layout="wide"
 )
 
