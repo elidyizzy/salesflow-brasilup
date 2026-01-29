@@ -314,7 +314,7 @@ with tab_editar:
                 # UF
                 ufs = ["MG", "SP", "RJ", "ES", "BA", "GO", "DF", "PR", "SC", "RS", "Outro"]
                 uf_orc = orc["cliente"].get("estado", "MG")
-                st.session_state.cli_uf = ufs.index(uf_orc) if uf_orc in ufs else 0
+                st.session_state.cli_uf = uf_orc if uf_orc in ufs else "MG"
 
                 # Carrega observacoes
                 st.session_state.obs_orcamento = orc.get("observacoes", "")
@@ -640,7 +640,7 @@ def preencher_dados_cliente():
         for key in ["cli_nome", "cli_contato", "cli_end", "cli_cidade", "cli_cep", "cli_cnpj"]:
             if key in st.session_state:
                 st.session_state[key] = ""
-        st.session_state.cli_uf = 0
+        st.session_state.cli_uf = "MG"
     else:
         clientes = carregar_clientes()
         # Tenta encontrar em empresas (PJ)
@@ -658,7 +658,7 @@ def preencher_dados_cliente():
             st.session_state.cli_cnpj = emp.get("cnpj", "")
             ufs = ["MG", "SP", "RJ", "ES", "BA", "GO", "DF", "PR", "SC", "RS", "Outro"]
             uf_emp = end.get("uf", "MG")
-            st.session_state.cli_uf = ufs.index(uf_emp) if uf_emp in ufs else 0
+            st.session_state.cli_uf = uf_emp if uf_emp in ufs else "MG"
         else:
             # Tenta encontrar em pessoas (PF)
             pf = next((p for p in clientes.get("pessoas", []) if f"👤 {p['nome']}" == cliente_sel), None)
@@ -674,7 +674,7 @@ def preencher_dados_cliente():
                 st.session_state.cli_cnpj = pf.get("cpf", "")
                 ufs = ["MG", "SP", "RJ", "ES", "BA", "GO", "DF", "PR", "SC", "RS", "Outro"]
                 uf_pf = end.get("uf", "MG")
-                st.session_state.cli_uf = ufs.index(uf_pf) if uf_pf in ufs else 0
+                st.session_state.cli_uf = uf_pf if uf_pf in ufs else "MG"
 
 with tab_orcamento:
     col_form, col_preview = st.columns([1, 1])
