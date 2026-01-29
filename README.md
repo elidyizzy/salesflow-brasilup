@@ -76,9 +76,15 @@
 
 ---
 
-## Demonstração
+## Screenshot
 
-**Acesse:** [https://salesflow.solutions](https://salesflow.solutions)
+<p align="center">
+  <img src="screenshot.png" alt="SalesFlow - Exemplo de Orçamento" width="600">
+</p>
+
+<p align="center">
+  <em>Exemplo de orçamento gerado pelo sistema</em>
+</p>
 
 ---
 
